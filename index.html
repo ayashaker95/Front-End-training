@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" 
+	      content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
-		  href="//fonts.googleapis.com/css?family=Open+Sans">
+	      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" >
 
 	<link rel="stylesheet"
-		href="css/firsttask1.css">
+		href="css/stylesheet.css">
 
 	<link rel="stylesheet"
-		  href="css/core.css">
+		  href="css/fancybox/core.css">
 
 	<link rel="stylesheet"
-		  href="css/fullscreen.css">
+		  href="css/fancybox/fullscreen.css">
 
     <link rel="stylesheet"
-		  href="css/share.css">
+		  href="css/fancybox/share.css">
 
     <link rel="stylesheet"
-		  href="css/slideshow.css">
+		  href="css/fancybox/slideshow.css">
 
 	<link rel="stylesheet"
-		  href="css/thumbs.css">
+		  href="css/fancybox/thumbs.css" media="screen">
+	
 </head>
 <body>
 	<div class="Main-page">
@@ -31,8 +34,11 @@
 		<h1 class="title-text">ZOZOR</h1>
 	 </div>
 	 <h2 class="tavel-header">Travel diaries</h2>
+	 
 	 <div class="header-content">
+		
 	   <nav>
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 	 	<ul>
            <li>
 			 <div class="nav">
@@ -75,16 +81,12 @@
 	   </nav>
 	</div>
 </header>
-	 <div class="seperater">
-		<img src="images/line.png" 
-			 width="900px" 
-			 height="5px">
-	</div>
+	 <div class="seperater"></div>
 	<div class="first-container">
-        <div class="main_image">
-                <div class="img_description">
+        <div class="main-image">
+                <div class="img-description">
                 	<p>Reflections on my holiday in the United States...</p>
-                	<button class="red_button">
+                	<button class="red-button">
                 		See article <img src="images/small_arrow.png">
                 	</button>
                 </div>
@@ -136,45 +138,60 @@
         </div>  
 	 </div>
 	 <div class="seperater">
-        <img src="images/line.png" 
-             width="900px" 
-             height="5px">
         <img class ="top-arrow"
              src="images/top.png">
 	 </div>
 	</div>
 
 	<footer>
-		<div class= "myLastTweet">
+		<div class= "myLast-tweet">
 			<h2>MY LAST TWEET</h2>
             <p>Hee-haw!</p>
             <p>12/05 23:12</p>
 		</div>
-		<div class ="myPicture">
+		<div class ="my-picture">
 		    <h2>MY Pictures</h2>
 		    <div id="pics"> 
 				<a class="fancybox" 
 					href="images/pic1_b.png" 
-					data-fancybox-group="gallery" 
+					data-fancybox="gallery" 
 					title="">
 					<img src="images/pic1.jpg" alt="" />
 				</a>
-				<a class="fancybox" href="images/pic2_b.png" data-fancybox-group="gallery" title=""><img src="images/pic2.jpg" alt="" /></a>
+				<a class="fancybox" 
+				   href="images/pic2_b.png" 
+				   data-fancybox="gallery" 
+				   title="">
+					<img src="images/pic2.jpg" 
+						 alt="" />
+				</a>
 
-                <a class="fancybox" href="images/pic3_b.png" data-fancybox-group="gallery" title=""><img src="images/pic3.jpg" alt="" /></a>
+				<a class="fancybox" 
+				   href="images/pic3_b.png" 
+				   data-fancybox="gallery" 
+				   title="">
+				   <img src="images/pic3.jpg" 
+				   alt="" />
+				</a>
 
-                <a class="fancybox" href="images/pic4_b.png" data-fancybox-group="gallery" title=""><img src="images/pic4.jpg" alt="" /></a>
+				<a class="fancybox" 
+				   href="images/pic4_b.png" 
+				   data-fancybox="gallery" 
+				   title="">
+				   <img src="images/pic4.jpg" 
+						alt="" />
+				</a>
             </div>
 	    </div>
-		<div class ="myFriends">
+		<div class ="my-friends">
 		   <h2>MY FRIENDS</h2>
-		     <ul class="friendList1">
+		     <ul class="friend-List1">
 		   	    <li>Pupi the rabbit</li>
 		        <li>Mr Baobob</li>
 		   	    <li>kiwaii</li>
 		   	    <li>Perceval.eu</li>
 		     </ul>
-		     <ul class="friendList2">
+		     <ul class="friend-List2">
 		     	<li>Ji</li>
 		    	<li>Super cucumber</li>
 		      	<li>Prince</li>

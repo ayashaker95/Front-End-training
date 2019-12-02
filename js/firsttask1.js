@@ -1,3 +1,14 @@
 $(document).ready(function() {
-$('.fancybox').fancybox();
+$('.fancybox').fancybox({
+    buttons : [ 
+        'zoom',
+        'slideShow',
+        'share',
+        'fullScreen',
+        'close'
+      ],
+      thumbs : {
+        autoStart : true
+      }  
+});
 });
