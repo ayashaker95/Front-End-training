@@ -4,11 +4,8 @@
 	<meta name="viewport" 
 	      content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
-	      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" >
-
-	<link rel="stylesheet"
-		href="css/stylesheet.css">
-
+		  href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" >
+		  
 	<link rel="stylesheet"
 		  href="css/fancybox/core.css">
 
@@ -22,66 +19,76 @@
 		  href="css/fancybox/slideshow.css">
 
 	<link rel="stylesheet"
-		  href="css/fancybox/thumbs.css" media="screen">
+		  href="css/fancybox/thumbs.css"
+		  media="screen">
+	<link rel="stylesheet" 
+	      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	 <link rel="stylesheet"
+		  href="css/stylesheet.css">
+	<script>
+		
+		(window.celero && "object" == typeof window.celero) ||
+        ((window.celero = window.celero || []),
+        (celero.load = function (e, o) {
+          (window.celero.appid = e), (window.celero.config = o = o || {});
+          var r = document.createElement("script"),
+            c = new Date();
+          (r.type = "text/javascript"),
+            (r.async = !0),
+            (r.src = "./tracker.js?d=" + c.getTime());
+          var t = document.getElementsByTagName("script")[0];
+          t.parentNode.insertBefore(r, t), (celero.q = []);
+          for (
+            var n = function (e) {
+                return function () {
+                  celero.q.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                };
+              },
+              l = ["recordEvent", "setUserIdentity", "clearUser", "init"],
+              i = 0;
+            i < l.length;
+            i++
+          )
+            celero[l[i]] = n(l[i]);
+        })),
+        window.addEventListener("celeroLoaded", function () {
+          for (let e = 0; e < celero.q.length; e++) {
+            let o = celero.q[e].slice(1, celero.q[e].length);
+            celero[celero.q[e][0]].apply(this, o);
+          }
+          (celero.q = []), celero.init();
+        }),
+        celero.load("a9295486-066d-44a1-8a85-a786dba862cd");
+    
+	</script>
 	
 </head>
 <body>
-	<div class="Main-page">
-	 <header>
+  <div class="Main-page">
+	<header>
 	  <div class="title">
-		<img clss="logo"
+		<img class="logo"
 			 src="images/zozor_logo.png" >
 		<h1 class="title-text">ZOZOR</h1>
-	 </div>
-	 <h2 class="tavel-header">Travel diaries</h2>
-	 
-	 <div class="header-content">
-		
-	   <nav>
-			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-	 	<ul>
-           <li>
-			 <div class="nav">
-			   <a href="">HOME</a>
-			 </div>
-		   </li>
-		   
-           <li>
-			<div class="nav">
-				<a href="">BLOG 
-				  <i class="fa fa-caret-down"></i>
-				</a>
-				<div class="dropdown-content">
-				  <a href="#">Link 1</a>
-				  <a href="#">Link 2</a>
-				  <a href="#">Link 3</a>
-				</div>
-			</div> 
-		   </li>
-		   
-           <li>
-			 <div class="nav">
-				<a href="">RESUME</a>
-				<div class="dropdown-content">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
-					<a href="#">Link 4</a>
-					<a href="#">Link 5</a>
-				</div>
-			</div> 
-			</li>
-			
-           <li>
-			 <div class="nav">
-			   <a href="">CONTACT</a>
-			 </div> 
-            </li>
-        </ul> 
-	   </nav>
-	</div>
-</header>
-	 <div class="seperater"></div>
+	  </div>
+	  <div class="header-section2">
+	    <h2 class="tavel-header">Travel diaries</h2>
+	    <div class="topnav" id="myTopnav">
+			 <a href="">HOME</a>
+			 <a href="">BLOG </a>
+			 <a href="">RESUME</a>
+			 <a href="">CONTACT</a>
+			 <a href="javascript:void(0);" 
+			   class="icon" 
+			   onclick="myFunction()">
+			   <i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+	  </div>
+    </header>
+	<div class="seperater"></div>
 	<div class="first-container">
         <div class="main-image">
                 <div class="img-description">
@@ -98,6 +105,7 @@
 			 src="images/pin.png" >
 		<h2 class="title-text">I'M A GREAT TRAVELLER</h2>
 	 </div>
+	 <div class = " container-content">
 	 <div class ="pargraphs">
 	 <p>Financial Management means planning, organizing, directing and controlling the financial activities such as procurement and utilization of funds of the enterprise.
 	  It means applying general management principles to financial resources of the enterprise.
@@ -114,8 +122,7 @@
 	</div>
 	 <div class ="popup">
 	 	<h2>About the author</h2>
-         <img class ="pic "
-              class="zozor" 
+         <img class="zozor" 
               src="images/zozor.png">
 	 	<p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
 	 	<p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am</p>
@@ -137,12 +144,12 @@
             </a>
         </div>  
 	 </div>
+	</div>
 	 <div class="seperater">
         <img class ="top-arrow"
              src="images/top.png">
 	 </div>
 	</div>
-
 	<footer>
 		<div class= "myLast-tweet">
 			<h2>MY LAST TWEET</h2>
@@ -199,9 +206,10 @@
 		    </ul>
 	    </div>
 	</footer>
-</div>
+  </div>
 <script src="jquery/jquery.min.js"></script>
 <script type="text/javascript" src="jquery/jquery.fancybox.js"></script>
-<script src="js/firsttask1.js"></script>
+<script src="/js/firsttask1.js"></script>
+<script src="/js/tracking.js"></script>
 </body>
 </html>

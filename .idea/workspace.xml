@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d510bf3-a93d-426e-82a7-d55cb3c678d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Pages/CollectPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/pages/CollectPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Test/CollectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/tests/CollectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/Utilities/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/utilities/PropertyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/base/ReadWriteExcelFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/src/com/ecoos/locator/locator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/test-output/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/test-output/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/eclipse-workspace/ECO-OS/test-output/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/CollectTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/CollectTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/CollectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/CollectTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/Login Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/Login Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/Login Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/Test suite/Login Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/junitreports/TEST-Test.CollectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/junitreports/TEST-Test.CollectTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/junitreports/TEST-Test.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/junitreports/TEST-Test.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/old/Test suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/old/Test suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/old/Test suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/old/Test suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ashaker/webautomation-selenium-/ECOOS/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECO-OS/test-output/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ECO-OS/test-output/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ECO-OS/test-output/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/css/stylesheet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/css/stylesheet.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/css/stylesheet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/css/stylesheet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/js/firsttask1.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/js/firsttask1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/argus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/card/TrelloCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/card/TrelloCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/collapse/Collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/collapse/Collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/createBatchModel/CreateBatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/createBatchModel/CreateBatch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/createZoneModel/CreateZone.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/createZoneModel/CreateZone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/createZoneModel/CreateZone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/createZoneModel/CreateZone.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/list/TrelloList.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/list/TrelloList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/components/list/TrelloList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/components/list/TrelloList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/containers/appContainer/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/containers/appContainer/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/argus/src/containers/appContainer/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/argus/src/containers/appContainer/App.scss" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DefaultSuiteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="method#setUp#0;class#DefaultSuiteTest#0" />
+                <element signature="method#login#0;class#DefaultSuiteTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Ashaker/Documents/GitHub/GitLab" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-657" />
+    <option name="y" value="270" />
+    <option name="width" value="1932" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d510bf3-a93d-426e-82a7-d55cb3c678d6" name="Default Changelist" comment="" />
+      <created>1573718808534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573718808534</updated>
+      <workItem from="1573718813819" duration="4000" />
+      <workItem from="1586286468594" duration="3918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3922000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.254251" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DefaultSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="method#setUp#0;class#DefaultSuiteTest#0" />
+            <element signature="method#login#0;class#DefaultSuiteTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
